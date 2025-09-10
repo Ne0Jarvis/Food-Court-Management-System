@@ -33,14 +33,9 @@ Users can manage stalls, menus, and search food stalls by type or ID. Perfect fo
 
 ### Requirements
 - Java JDK 8 or higher  
-- IDE or terminal to run Java programs  
-
-### Compile & Run
-```bash
-javac FoodCourtManagementSystem.java
-java FoodCourtManagementSystem
-
-Workflow
+- IDE or terminal to run Java programs
+  
+### Workflow
 
 Launch the application
 
@@ -96,4 +91,9 @@ Database integration (MySQL/SQLite)
 Real-time search & sorting
 
 Multiple customer profiles and orders tracking
+
+### Compile & Run
+```bash
+javac FoodCourtManagementSystem.java
+java FoodCourtManagementSystem
 
