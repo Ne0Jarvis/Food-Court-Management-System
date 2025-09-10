@@ -1,18 +1,39 @@
-## Getting Started
+# Food Court Management System 🍔🍕🍜
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A **Java console application** to manage a food court with Admin, Food Stall, and Customer portals. Users can manage stalls, menus, and search food stalls efficiently.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## Features
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Admin Portal
+- Secure login with username: `admin` and password: `password`.
+- Add **single** or **multiple** food stalls with complete details.
+- View all existing food stalls.
+- Delete any food stall record.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Food Stall Portal
+- Login with stall ID and password.
+- Recover password using a unique keyword.
+- View and modify stall profile.
+- Manage menu:
+  - Add new food items.
+  - Delete existing food items.
+  - View complete menu with prices.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### Customer Portal
+- View all food stalls and menus.
+- Search food stalls by **stall ID** or **food type**.
+- Explore food options and prices easily.
 
-## Dependency Management
+---
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Installation & Usage
+
+1. **Requirements**
+   - Java JDK 8 or higher
+   - IDE or terminal to run Java programs
+
+2. **Compile the program**
+   ```bash
+   javac FoodCourtManagementSystem.java
